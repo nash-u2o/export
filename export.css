@@ -1,0 +1,35 @@
+#map-container {
+    width: 100%;
+    height: 100vh;
+    position: static;
+}
+#map {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+#toolbar {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 5px;
+}
+
+select {
+    margin-top: 5px;
+}
+
+#note {
+    position: absolute;
+    z-index: 10;
+}
